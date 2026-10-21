@@ -13,6 +13,7 @@ public:
     virtual ~Employee() {}   // virtual destructor (good practice)
 };
 
+
 class FullTimeEmployee : public Employee {
 private:
     double monthlySalary;
